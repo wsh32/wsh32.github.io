@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Site Properities -->
+	<title>Wesley Soo-Hoo</title>
+
+	<link href="logo.png" rel="shortcut icon" />
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="semantic/packaged/css/semantic.css">
+	<link rel="stylesheet" type="text/css" href="semantic/minified/elements/segment.min.css">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.6/jquery.scrollTo.min.js"></script>
+	<script src="assets/js/jquery-scrollspy.js"></script>
+	<script src="semantic/packaged/javascript/semantic.js"></script>
+	<script src="homepage.js"></script>
+
+</head>
+<body id="home">
+
+	<div class="ui page dimmer hidden">
+		<br/><br/><br/><br/><br/>
+		<div class="center">
+			<h2 class="ui inverted icon header">
+				<i class="icon circular inverted emphasized green desktop"></i>
+				Sorry! Screen size too small.
+				<div class="sub header">Please view on a larger display (or turn your tablet to landscape).</div>
+			</h2>
+		</div>
+	</div>
+
+	<!-- **************** -->
+	<!-- *** MASTHEAD *** -->
+	<!-- **************** -->
+	<div class="ui inverted page grid masthead segment">
+		<div class="column">
+			<div class="inverted secondary pointing ui menu">
+				<div class="header item">W Soo-Hoo</div>
+				<div class="right menu">
+					<div class="ui top right pointing mobile dropdown link item">
+						Menu
+						<i class="dropdown icon"></i>
+						<div class="menu">
+							<a class="item about-button">About</a>
+							<a class="item skills-button">Skills</a>
+							<a class="item experience-button">Experience</a>
+							<a class="item projects-button">Projects</a>
+							<a class="item contact-button">Contact</a>
+						</div>
+					</div>
+					<a class="header item about-button" style="color: white !important;"><b>About</b></a>
+					<a class="header item skills-button" style="color: white !important;"><b>Skills</b></a>
+					<a class="header item experience-button" style="color: white !important;"><b>Experience</b></a>
+					<a class="header item projects-button" style="color: white !important;"><b>Projects</b></a>
+					<a class="header item contact-button" style="color: white !important;"><b>Contact</b></a>
+				</div>
+			</div>
+			<!--<img src="images/cat.png" class="ui medium image">-->			
+			<div class="ui hidden transition desktop only information">
+				<center>
+					<h1 class="ui inverted header">
+						Hi There. I'm Wesley Soo-Hoo.
+					</h1>
+					<p>I am a current high school sophmore studying at the California Academy of Mathematics and Science.</p>
+					<div class="large basic inverted animated fade ui button" id="mail">
+						<a href="mailto:wesoohoo@gmail.com" style="color: white !important;">
+							<div class="visible content">Contact Me</div>
+							<div class="hidden content"><i class="mail icon"></i> Email</div>
+						</a>
+					</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************** -->
+	<!-- *** About Me *** -->
+	<!-- **************** -->
+	<div class="ui page grid stackable segment" id="about">
+		<div class="row">
+			<div class="column">
+				<h2 class="left aligned ui black block header">
+					<b><i class="user icon"></i> About Me</b>
+				</h2>
+			</div>
+		</div>
+		<div class="left one column aligned row" id="about-body">
+			<div class="column">
+				My name is <b>Wesley Soo-Hoo</b> and I'm a highschool student who is passionate about the power of the web and providing users with experiences like no other. I enjoy creating <b>dynamic and beautiful pages</b> to showcase products and present information in eye-pleasing layouts.
+				<p>I would love to get in touch with you, please <b><a class="contact-button">Contact Me</a></b>.</p>
+				<p>This website is just a summary of my work, download my resume <b><a href="resume.pdf" download>here</a></b>.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************** -->
+	<!-- **** Skills **** -->
+	<!-- **************** -->
+	<div class="ui page grid stackable segment" id="skills">
+		<div class="row">
+			<div class="column">
+				<h2 class="left aligned ui black block header">
+					<b><i class="code icon"></i> Skills and Expertise</b>
+				</h2>
+			</div>
+		</div>
+		<span class="scrollspy" id="skills-scrollspy"></span>
+		<div class="row" id="skills-body">
+			<div class="column">
+				<div class="four column doubling ui grid">
+					<div class="column">
+						<div class="ui label red">
+							Python
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							Java
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							PHP
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							Graphic Design
+						</div>
+					</div>
+				</div>
+				<div class="four column doubling ui grid">
+					<div class="column">
+						<div class="ui label red">
+							HTML/CSS
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							JavaScript
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							jQuery
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							Django
+						</div>
+					</div>
+				</div>
+				<div class="four column doubling ui grid">
+					<div class="column">
+						<div class="ui label red">
+							Linux
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							MySQL
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							Autodesk Inventor
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui label red">
+							Leadership
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************** -->
+	<!-- *** Experience *** -->
+	<!-- **************** -->
+	<div class="ui page grid overview segment" id="experience">
+		<div class="row">
+			<div class="column">
+				<h2 class="left aligned ui black block header">
+					<b><i class="book icon"></i> Experience</b>
+				</h2>
+			</div>
+		</div>
+		<span class="scrollspy" id="work-scrollspy"></span>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">FRC Team 687</div><div class="ui tiny success header">2014 - Present<br><br><br>
+						2015 - 2016 Lead Programmer<br>
+						2016 - Present Captain</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Team Captain</p></div>
+						<div class="ui tiny success header"><p>Team 687, <q>The Nerd Herd</q> is a FIRST Robotics team based on the campus of the California Academy of Mathematics and Science (CAMS), a small, public high school located in Carson, California. Being one of the most popular clubs on campus The Nerds are divided into the engineers (the Build Team) and the entrepreneurs (the Administration Team). Together, we make up one <b>LARGE</b> herd of nerds that is able to get hands-on, practical experience with machining, manufacturing, designing, documentation, finances, entrepreneurship, and management! Guided by our older nerds (our awesome mentors), we get to learn, grow and reach our potential.</p></div>
+						<div class="ui label small">CAD</div>
+						<div class="ui label small">Java</div>
+						<div class="ui label small">HTML/CSS</div>
+						<div class="ui label small">JavaScript/jQuery</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">CAMS Computer Science Club</div><div class="ui tiny success header">2014 - Present<br><br><br>
+						2015 - 2016 Secretary<br>
+						2016 - Present President</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>President</p></div>
+						<div class="ui tiny success header"><p>CAMS CSC stands for CAMS Computer Science and Cyber Security Club. We are committed to inspiring and teaching students about computers, hacking, forensics, software, hardware, and most importantly, how to have fun with the knowledge and skills that you develop. At CAMS CSC, we believe that learning about computers should not be a mundane task. While this club will eventually convert most of the social time currently available to you into social time with your computer, the knowledge you will gain far supersedes the satisfaction of communicating with humans.</p></div>
+						<div class="ui label small">Python</div>
+						<div class="ui label small">Forensics</div>
+						<div class="ui label small">Exploitation</div>
+						<div class="ui label small">Cryptography</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">Paragon Industries</div><div class="ui tiny success header">2015 - Present</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Intern Software and Electrical Engineer</p></div>
+						<div class="ui tiny success header"><p>Paragon Industries is one of the two competing teams, competing for a contract from the CARPA Initiative, a hypothetical government research agency modelled after DARPA. The current challenge is to build bipedal and quadrupedal robots to search a 12x12 foot area for smaller prey and to bring them into a different zone safely.</p></div>
+						<div class="ui label small">Arduino</div>
+						<div class="ui label small">Electrical Engineering</div>
+						<div class="ui label small">Robotics</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">MATE ROV</div><div class="ui tiny success header">2015 - Present</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Systems Engineer</p></div>
+						<div class="ui tiny success header"><p>Our team, Helix Industries, is competing this year in the 2016 MATE ROV Competition. Our task involved using a Remotely Operated Vehicle (ROV) to complete predetermined tasks. These tasks included collecting temperature readings, identifying equipment, obtaining oil samples and analysing their gas chromatographs, taking photographs of coral colonies, and attaching a flange and wellhead cap to the top of a decommissioned wellhead. In order to complete these, we made a ROV specialized in performing the tasks.</p></div>
+						<div class="ui label small">Arduino</div>
+						<div class="ui label small">Python</div>
+						<div class="ui label small">Electrical Engineering</div>
+						<div class="ui label small">Robotics</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">CAMS TED-Ed Club</div><div class="ui tiny success header">2016 - Present<br><br><br>
+						2015 - 2016 Vice President<br>
+						2016 - Present Mentor</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Mentor / Founder</p></div>
+						<div class="ui tiny success header"><p>CAMS TED-Ed Club is a club built to provide students at CAMS with a safe, judge-free environment to share their passions. We truly believe in the TED slogan, "Ideas Worth Spreading", and our goal is to grow these within our students.</p></div>
+						<div class="ui label small">Public Speaking</div>
+						<div class="ui label small">Leadership</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">CAMS Key Club</div><div class="ui tiny success header">2014 - Present<br><br><br>
+						2015 - 2016 Webmaster<br>
+						2016 - Present Treasurer</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Treasurer</p></div>
+						<div class="ui tiny success header"><p>CAMS Key Club is a service club that promotes student leadership and cooperation. We are a club stationed on the California Academy of Mathematics and Science, located on the campus of Cal Stat Dominguez Hills. Key Club is the oldest, and one of the biggest clubs at the school and our members pride themselves in bettering the community and themselves.</p></div>
+						<div class="ui label small">Leadership</div>
+						<div class="ui label small">Community Service</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="four wide column" style="">
+						<p><div class="ui medium success header">CAMS Math Club</div><div class="ui tiny success header">2014 - Present</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Webmaster</p></div>
+						<div class="ui tiny success header"><p>As webmaster, my responsibilities included developing the website,  which was an online math competition. The website allows students to sign up and solve practice math problems, while competing with peers for the highest score.</p></div>
+						<div class="ui label small">HTML/CSS</div>
+						<div class="ui label small">PHP</div>
+						<div class="ui label small">JavaScript/jQuery</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- **************** -->
+	<!-- *** New Projects *** -->
+	<!-- **************** -->
+	<div class="ui page grid overview segment" id="projects">
+		<div class="row">
+			<div class="column">
+				<h2 class="left aligned ui black block header">
+					<b><i class="book icon"></i> Projects</b>
+				</h2>
+			</div>
+		</div>
+		<span class="scrollspy" id="projects-scrollspy"></span>
+		 <div class="ui inverted two column center aligned stackable divided grid" id="projects-body">
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://camsctf.com" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">CAMS CTF</div><div class="ui tiny success header">2015-Present</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>CAMS Capture The Flag</p></div>
+						<div class="ui tiny success header"><p>CCTF is an international competition developed by the members of CAMS Computer Science Club for middle and high school students around the world. We host this competition annually during the spring, and it usually attracts around 1500 competitors. The main goal of CCTF is to provide a fun and engaging way to introduce students to computer science.</p></div>
+						<div class="ui label small">Graphics Design</div>
+						<div class="ui label small">Django</div>
+						<div class="ui label small">Cryptography</div>
+						<div class="ui label small">Forensics</div>
+						<div class="ui label small">Web Exploitation</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://www.github.com/nerdherd/Stronghold2016" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">CAMS Robotics Stronghold</div><div class="ui tiny success header">2016</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Robot Code for CAMS Robotics</p></div>
+						<div class="ui tiny success header"><p>This is the software that ran on the 2016 robot, Mantis. The code features many novelties to our team, including PID closed loop control on all articulated subsystems, vision processing, and multi-threading.</p></div>
+						<div class="ui label small">Java</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://www.github.com/wsh32/RecycleRush687" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">CAMS Robotics Recycle Rush</div><div class="ui tiny success header">2015</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Robot Code for CAMS Robotics</p></div>
+						<div class="ui tiny success header"><p>In collaboration with the other members of the programming subteam, I helped develop the robot code for the 2015 season, as well as helped with robot code that runs on our previous robots.</p></div>
+						<div class="ui label small">Java</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://www.camskeyclub.com" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">CAMS Key Club Website</div><div class="ui tiny success header">2015 - 2016</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Website for CAMS Key Club</p></div>
+						<div class="ui tiny success header"><p>During the 2015-2016 term, I served as the webmaster of CAMS Key Club. That year, we created the first club website that actively hosted event information and signups, club bulletins, division newsletters, and a photo gallery.</p></div>
+						<div class="ui label small">HTML/CSS</div>
+						<div class="ui label small">PHP</div>
+						<div class="ui label small">JavaScript/jQuery</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://camsmathclub.com" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">CAMS Math Club Website</div><div class="ui tiny success header">2015 - Present</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Website for CAMS Math Club</p></div>
+						<div class="ui tiny success header"><p>As webmaster, I created a simple competition platform where students answer math questions for points. These points ranked the students on a live scoreboard.</p></div>
+						<div class="ui label small">HTML/CSS</div>
+						<div class="ui label small">PHP</div>
+						<div class="ui label small">JavaScript/jQuery</div>
+					</div>
+				</div>
+			</div>
+			<div class="ui stackable grid">
+				<div class="row">
+					<div class="one wide column" style="">
+						<p><a href="http://tantium.wesleysoohoo.me" target="_blank" class="ui button tiny blue icon"><i class="browser icon"></i></a></p>
+					</div>
+					<div class="three wide column" style="">
+						<p><div class="ui medium success header">Tantium</div><div class="ui tiny success header">2015</div></p>
+					</div>
+					<div class="one wide column" style=""></div>
+					<div class="nine wide column" style="">
+						<div class="ui medium success header"><p>Tantium</p></div>
+						<div class="ui tiny success header"><p>Tantium is a group of 5 high school students. For a school project, we created a innovated the password generator, creating a website that generates passwords that are both easily memorized and secure.</p></div>
+						<div class="ui label small">HTML/CSS</div>
+						<div class="ui label small">PHP</div>
+						<div class="ui label small">Python</div>
+						<div class="ui label small">JavaScript/jQuery</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- **************** -->
+	<!-- ** Interests *** -->
+	<!-- **************** -->
+	<div class="ui page grid stackable segment" id="interests">
+		<div class="row">
+			<div class="column">
+				<h2 class="left aligned ui black block header">
+					<b><i class="code icon"></i> Other Interests</b>
+				</h2>
+			</div>
+		</div>
+		<span class="scrollspy" id="interests-scrollspy"></span>
+		<div class="row" id="interests-body">
+			<div class="column">
+				<div class="ui grid">
+					<div class="three column mobile row">
+						<div class="column">
+							<div class="ui label red">
+								Arduino
+							</div>
+						</div>
+						<div class="column">
+							<div class="ui label red">
+								Engineering
+							</div>
+						</div>
+						<div class="column">
+							<div class="ui label red">
+								FIRST Robotics
+							</div>
+						</div>
+					</div>
+					<div class="three column mobile row">
+						<div class="column">
+							<div class="ui label red">
+								Electronics
+							</div>
+						</div>
+						<div class="column">
+							<div class="ui label red">
+								Web Development
+							</div>
+						</div>
+						<div class="column">
+							<div class="ui label red">
+								Internet of Things
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- **************** -->
+	<!-- **** Contact *** -->
+	<!-- **************** -->
+	<div class="ui inverted page grid stackable relaxed feature segment" id="contact">
+		<div class="row">
+			<div class="column">
+				<h1 class="center aligned ui header">
+					Contact Me
+				</h1>
+				<div class="ui inverted horizontal divider"><i class="user icon"></i></div>
+			</div>
+		</div>
+		<span class="scrollspy" id="interests-scrollspy"></span>
+		<div class="row" id="contact-body">
+			<div class="column center aligned">
+				<h2 class="ui header">Have an internship for me? I would love to hear from you.</h2>
+				<div class="column">
+				<div class="ui text shape pointer" id="github">
+					<div class="sides">
+						<div class="active side">
+							<i class="huge circular github icon"></i>
+						</div>
+						<div class="side">
+							<i class="huge circular github icon"></i>
+						</div>
+					</div>
+				</div>
+				<div class="ui text shape pointer" id="email">
+					<a href="mailto:wesoohoo@gmail.com" style="color: white !important;">
+						<div class="sides">
+							<div class="active side">
+								<i class="huge circular mail icon"></i>
+							</div>
+							<div class="side">
+								<i class="huge circular mail icon"></i>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div> 
+			</div>
+		</div>
+	</div>
+
+
+	<!-- **************** -->
+	<!-- **** FOOTER **** -->
+	<!-- **************** -->
+	<div class="ui inverted teal page grid segment footer">
+		<div class="ui grid">
+			<div class="two wide column">
+				<h3 class="ui small header">wesoohoo@gmail.com</h3>
+			</div>
+			<div class="twelve wide center aligned column">
+				<h3 class="ui small header">Wesley Soo-Hoo</h3>
+			</div>
+			<div class="two wide column">
+				<h3 class="ui small header">2016</h3>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
