@@ -1,0 +1,16 @@
+<div class="panel panel-info">
+	<div class="panel-heading"><center><h1><i class="fa fa-user"></i></h1><h4 id="username">{{username}}</a></center></h4></div>
+
+	{{#frc_priority}}
+	<div class="panel-heading" id="frc-status">
+	  <center><h4><span class="label label-lg label-primary">FRC Status: Eligible</span></a></center></h4>
+	</div>
+	{{/frc_priority}}
+
+	{{^frc_priority}}
+	<div class="panel-heading" id="frc-status">
+	  <center><h4><span class="label label-lg label-primary">FRC Status: Ineligible</span></a></center></h4>
+	</div>
+	{{/frc_priority}}
+
+</div>

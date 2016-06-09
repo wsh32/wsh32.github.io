@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properities -->
+  <title>Kevin Vincent</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="../packaged/css/semantic.css">
+  <link rel="stylesheet" type="text/css" href="../minified/elements/segment.min.css">
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.6/jquery.scrollTo.min.js"></script>
+  <script src="../../assets/js/jquery-scrollspy.js"></script>
+  <script src="../packaged/javascript/semantic.js"></script>
+  <script src="homepage.js"></script>
+
+</head>
+<body id="home">
+
+  <!-- **************** -->
+  <!-- *** MASTHEAD *** -->
+  <!-- **************** -->
+  <div class="ui inverted page grid masthead segment">
+    <div class="column">
+      <div class="inverted secondary pointing ui menu">
+        <div class="header item">K Vincent</div>
+        <div class="right menu">
+          <div class="ui top right pointing mobile dropdown link item">
+            Menu
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item about-button">About</a>
+              <a class="item skills-button">Skills</a>
+              <a class="item projects-button">Projects</a>
+              <a class="item contact-button">Contact</a>
+            </div>
+          </div>
+          <a class="header item about-button" style="color: white !important;"><b>About</b></a>
+          <a class="header item skills-button" style="color: white !important;"><b>Skills</b></a>
+          <a class="header item projects-button" style="color: white !important;"><b>Projects</b></a>
+          <a class="header item contact-button" style="color: white !important;"><b>Contact</b></a>
+        </div>
+      </div>
+      <!--<img src="images/cat.png" class="ui medium image">-->      
+      <div class="ui hidden transition desktop only information">
+        <center>
+          <h1 class="ui inverted header">
+            Hi There. I'm Kevin Vincent.
+          </h1>
+          <p>I enjoy UX Design and building modern Web Applications</p>
+          <div class="large basic inverted animated fade ui button">
+            <div class="visible content">Contact Me</div>
+            <div class="hidden content"><i class="mail icon"></i> Email</div>
+          </div>
+          <div class="large basic inverted animated fade ui button">
+            <div class="visible content">My Resume</div>
+            <div class="hidden content"><i class="download icon"></i> Download</div>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <!-- **************** -->
+  <!-- *** About Me *** -->
+  <!-- **************** -->
+  <div class="ui page grid stackable segment" id="about">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="user icon"></i> About Me</b>
+        </h2>
+      </div>
+    </div>
+    <div class="left one column aligned row" id="about-body">
+      <div class="column">
+        My name is <b>Kevin Vincent</b> and I'm a <b>highschool student</b> who is <b>passionate</b> about the power of the web and providing users with experiences like no other. As a full stack engineer I work with <b>backend systems</b> primarily in Python and enjoy creating <b>dynamic and beautiful pages</b> to showcase products and present information in <b>fluid, mobile friendly</b> layouts.
+        <p>I would love to get in touch with you, please <b><a> Contact Me </a></b>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- **************** -->
+  <!-- *** Work Experience *** -->
+  <!-- **************** -->
+  <div class="ui page grid overview segment" id="work">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="book icon"></i> Work Experience</b>
+        </h2>
+      </div>
+    </div>
+    <span class="scrollspy" id="work-scrollspy"></span>
+     <div class="ui inverted two column center aligned stackable divided grid" id="work-body">
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="four wide column" style="">
+            <p><div class="ui medium success header">Team 254 (Part Time)</div><div class="ui tiny success header">2013 - Present</div></p>
+          </div>
+          <div class="one wide column" style=""></div>
+          <div class="nine wide column" style="">
+            <div class="ui medium success header"><p>Director of Digital Communications</p></div>
+            <div class="ui tiny success header"><p>Team 254 is a FIRST Robotics team based out of San Jose, California. As the Director of Digital Communications, my responsibilities include maintining a Wordpress site, designing responsive mobile/tablet friendly pages, and creating quick, and easy to use web applications for internal use.</p></div>
+            <div class="ui label small">PHP</div>
+            <div class="ui label small">Wordpress</div>
+            <div class="ui label small">WP Plugins</div>
+            <div class="ui label small">jQuery</div>
+            <div class="ui label small">Twitter Bootstrap</div>
+            <br/><br/>
+            <div class="ui label small">Python</div>
+            <div class="ui label small">MySql & Postgresql</div>
+            <div class="ui label small">Node.js</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- **************** -->
+  <!-- **** Skills **** -->
+  <!-- **************** -->
+  <div class="ui page grid stackable segment" id="skills">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="code icon"></i> Skills and Expertise</b>
+        </h2>
+      </div>
+    </div>
+    <span class="scrollspy" id="skills-scrollspy"></span>
+    <div class="row" id="skills-body">
+      <div class="column">
+        <div class="ui stackable grid">
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                Python
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Visual Communication
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Responsive Layouts
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Graphic Design
+              </div>
+            </div>
+          </div>
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                Web Applications
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Design
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Wordpress
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Java
+              </div>
+            </div>
+          </div>
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                PHP
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Postgresql
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Flask
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Heroku
+              </div>
+            </div>
+          </div>
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                Javascript
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                jQuery
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Twitter Bootstrap
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Templating
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- *** New Projects *** -->
+  <!-- **************** -->
+  <div class="ui page grid overview segment" id="projects">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="book icon"></i> Projects</b>
+        </h2>
+      </div>
+    </div>
+    <span class="scrollspy" id="projects-scrollspy"></span>
+     <div class="ui inverted two column center aligned stackable divided grid" id="projects-body">
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="one wide column" style="">
+            <p><div class="ui button tiny green icon"><i class="github icon"></i></div></p>
+          </div>
+          <div class="three wide column" style="">
+            <p><div class="ui medium success header">Team 254 Website</div><div class="ui tiny success header">2012 - Present</div></p>
+          </div>
+          <div class="one wide column" style=""></div>
+          <div class="nine wide column" style="">
+            <div class="ui medium success header"><p>Website for FIRST Robotics Team 254</p></div>
+            <div class="ui tiny success header"><p>My involvement in this project consists of maintenance and development of new features especially internal dashboarding for members</p></div>
+            <div class="ui label small">PHP</div>
+            <div class="ui label small">Wordpress</div>
+            <div class="ui label small">jQuery</div>
+            <div class="ui label small">Twitter Bootstrap</div>
+            <div class="ui label small">Node.js</div>
+          </div>
+        </div>
+      </div>
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="one wide column" style="">
+            <p><div class="ui button tiny green icon"><i class="github icon"></i></div></p>
+          </div>
+          <div class="three wide column" style="">
+            <p><div class="ui medium success header">Internet Things</div><div class="ui tiny success header">2012 - 2013</div></p>
+          </div>
+          <div class="one wide column" style=""></div>
+          <div class="nine wide column" style="">
+            <div class="ui medium success header"><p>An Easy to Use and Asthetically Pleasing Dashboarding Tool</p></div>
+            <div class="ui tiny success header"><p>This project provides an easy to use dashboard to which data can be sent with a simple GET or POST request. The data can then be viewed in charts, graphs, and tables.</p></div>
+            <div class="ui label small">PHP</div>
+            <div class="ui label small">jQuery</div>
+            <div class="ui label small">Twitter Bootstrap</div>
+            <div class="ui label small">MySQL</div>
+          </div>
+        </div>
+      </div>
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="one wide column" style="">
+            <p><div class="ui button tiny green icon"><i class="github icon"></i></div></p>
+          </div>
+          <div class="three wide column" style="">
+            <p><div class="ui medium success header">254 EMS</div><div class="ui tiny success header">2013 - Present</div></p>
+          </div>
+          <div class="one wide column" style=""></div>
+          <div class="nine wide column" style="">
+            <div class="ui medium success header"><p>A Beautiful Event Management System built from the ground up</p></div>
+            <div class="ui tiny success header"><p>This simple event management sytem was created as a signup / registration system that is easy to use and most importantly beatiful to look at.</p></div>
+            <div class="ui label small">Python</div>
+            <div class="ui label small">Flask</div>
+            <div class="ui label small">Twitter Bootstrap</div>
+            <div class="ui label small">jQuery</div>
+            <div class="ui label small">Postgresql</div>
+          </div>
+        </div>
+      </div>
+      <div class="ui stackable grid">
+        <div class="row">
+          <div class="one wide column" style="">
+            <p><div class="ui button tiny green icon"><i class="github icon"></i></div></p>
+          </div>
+          <div class="three wide column" style="">
+            <p><div class="ui medium success header">Reddit Makify</div><div class="ui tiny success header red">In Development</div></p>
+          </div>
+          <div class="one wide column" style=""></div>
+          <div class="nine wide column" style="">
+            <div class="ui medium success header"><p>A Bot for the Reddit social media site</p></div>
+            <div class="ui tiny success header"><p>This Reddit bot intelligently scrapes comments and can automatically create posters, tshirts, and other physical objects from any comment or posting.</p></div>
+            <div class="ui label small">Python</div>
+            <div class="ui label small">Flask</div>
+            <div class="ui label small">Reddit Api</div>
+            <div class="ui label small">Postgresql</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- ** Education *** -->
+  <!-- **************** -->
+  <div class="ui page grid stackable segment" id="education">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="code icon"></i> Courses & Education</b>
+        </h2>
+      </div>
+    </div>
+    <span class="scrollspy" id="education-scrollspy"></span>
+      <div class="row">
+        <div class="column">
+          <h5 class="left aligned ui small header">Computer Science Track</h5>
+          <div class="ui four small steps">
+            <div class="ui step">
+              CS 101
+            </div>
+            <div class="ui step">
+              Computer Science AP
+            </div>
+            <div class="ui active step">
+              Adv. Data Structures
+            </div>
+            <div class="ui disabled step">
+              Web and Mobile Apps
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h5 class="left aligned ui small header">Design Track</h5>
+          <div class="ui three small steps">
+            <div class="ui step">
+              Graphic Design Introductory Course
+            </div>
+            <div class="ui active step">
+              Advanced Graphic Design 2
+            </div>
+            <div class="ui disabled step">
+              Web Design
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h5 class="left aligned ui small header">Other Courses</h5>
+          <a class="ui label black">Calculus</a>
+          <a class="ui label black">Physics AP</a>
+          <a class="ui label black">Chemistry AP</a>
+        </div>
+      </div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- ** Interests *** -->
+  <!-- **************** -->
+  <div class="ui page grid stackable segment" id="interests">
+    <div class="row">
+      <div class="column">
+        <h2 class="left aligned ui black block header">
+          <b><i class="code icon"></i> Other Interests</b>
+        </h2>
+      </div>
+    </div>
+    <span class="scrollspy" id="interests-scrollspy"></span>
+    <div class="row" id="interests-body">
+      <div class="column">
+        <div class="ui grid">
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                Arduino
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Radio Control
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Photography
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Human Computer Interaction
+              </div>
+            </div>
+          </div>
+          <div class="four column mobile row">
+            <div class="column">
+              <div class="ui label red">
+                FIRST Robotics
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui label red">
+                Big Data
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- **** Contact *** -->
+  <!-- **************** -->
+  <div class="ui inverted page grid stackable relaxed feature segment" id="contact">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Contact Me
+        </h1>
+        <div class="ui inverted horizontal divider"><i class="user icon"></i></div>
+      </div>
+    </div>
+    <span class="scrollspy" id="interests-scrollspy"></span>
+    <div class="row" id="contact-body">
+      <div class="column center aligned">
+        <h2 class="ui header">Got an internship for me? I would love to hear from you.</h2>
+        <div class="column">
+        <div class="ui text shape">
+          <div class="sides">
+            <div class="active side">
+              <i class="huge circular linkedin icon"></i>
+            </div>
+            <div class="side">
+              <i class="huge circular linkedin icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="ui text shape">
+          <div class="sides">
+            <div class="active side">
+              <i class="huge circular github icon"></i>
+            </div>
+            <div class="side">
+              <i class="huge circular github icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="ui text shape">
+          <div class="sides">
+            <div class="active side">
+              <i class="huge circular facebook icon"></i>
+            </div>
+            <div class="side">
+              <i class="huge circular facebook icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="ui text shape">
+          <div class="sides">
+            <div class="active side">
+              <i class="huge circular mail icon"></i>
+            </div>
+            <div class="side">
+              <i class="huge circular mail icon"></i>
+            </div>
+          </div>
+        </div>
+      </div> 
+      </div>
+    </div>
+  </div>
+
+
+  <!-- **************** -->
+  <!-- **** FOOTER **** -->
+  <!-- **************** -->
+  <div class="ui inverted teal page grid segment footer">
+    <div class="ui grid">
+      <div class="two wide column">
+        <h3 class="ui small header">San Jose, CA</h3>
+      </div>
+      <div class="twelve wide center aligned column">
+        <h3 class="ui small header">Hand Crafted by Kevin Vincent</h3>
+      </div>
+      <div class="two wide column">
+        <h3 class="ui small header">2013</h3>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
