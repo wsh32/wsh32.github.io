@@ -58,7 +58,7 @@ $(document)
     var $paneTarget = $('body');
 
     $paneTarget.scrollTo(1);
-                        
+
     $('.about-button').click(function(){
       $paneTarget.stop().scrollTo( '#about', 400 );
     });
@@ -68,8 +68,8 @@ $(document)
     $('.experience-button').click(function(){
       $paneTarget.stop().scrollTo( '#experience', 400 );
     });
-	$('.projects-button').click(function(){
-      $paneTarget.stop().scrollTo( '#projects', 400 );
+	$('.awards-button').click(function(){
+      $paneTarget.stop().scrollTo( '#awards', 400 );
     });
     $('.contact-button').click(function(){
       $paneTarget.stop().scrollTo( '#contact', 400 );
